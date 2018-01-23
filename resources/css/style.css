@@ -1,3 +1,20 @@
 body {
   background-color:black;
 }
+
+h6 a {
+  color: aquamarine;
+  font-size: 16px;
+  text-align: center;
+}
+
+.whiteverdana {
+  font-family: verdana;
+  color: white;
+}
+
+#heading {
+  font-size:50px;
+  text-align: center;
+
+}
