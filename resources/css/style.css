@@ -1,11 +1,17 @@
 body {
   background-color:black;
+  text-align: center;
 }
 
-a h6 {
+a h6, #bottom h6 {
   color: aquamarine;
   font-size: 16px;
-  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .whiteverdana {
@@ -15,20 +21,25 @@ a h6 {
 
 #heading {
   font-size:50px;
-  text-align: center;
+}
 
+#comingsoon {
+  font-size: 50px;
 }
 
 #subtext {
-  text-align: center;
-  text-size: 42px;
-  text-weight: 300px;
+  font-weight: 300px;
   font-family: verdana;
   color: white;
+  font-size: 42px;
 }
 
 #description {
   color: grey;
-  text-align: center;
   font-size: 21px;
+}
+
+#copyright {
+  color: gray;
+  text-align: right;
 }
